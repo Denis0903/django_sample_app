@@ -9,13 +9,13 @@ English 1st,Japanese 2nd.
 
 # Environment
 
-- When you run pipenv install Django under the root directory, the related modules listed in the pipfile will be installed.
+- When you run "pipenv install Django" under the root directory, the related modules listed in the pipfile will be installed.
 
 # Execution method
 
-- Start virtual environment with pipenv shell
+- Start virtual environment with "pipenv shell"
 - Register an arbitrary character string in DJANGO_APP_SECRET_KEY in the environment variable of the environment where the Django app is deployed (Because it is a Secret Key used in Django, keep a long character string secret like a password)
-- Go to mybook directory and run python manage.py runserver
+- Go to mybook directory and run "python manage.py runserver"
 - When you access the right page, you will be taken to the administration screen (ID: admin Password: adminpassword) (Needless to say, Chrome is recommended.) Http://127.0.0.1:8888/admin
 - When you access the page on the right, you will be taken to the application screen (not to mention Chrome is recommended) http://127.0.0.1:8000/cms/book/
 
